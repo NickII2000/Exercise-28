@@ -20,3 +20,6 @@ hearts.forEach(item => {
 
 const oneheart = document.querySelector('.heart');
 console.log(oneheart);
+
+const div = document.querySelector('div');
+console.log(div);
