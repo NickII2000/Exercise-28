@@ -8,3 +8,6 @@ console.log(btns);
 
 const btns2 = document.getElementsByTagName('button');
 console.log(btns2[1]);
+
+const circles = document.getElementsByClassName('circle');
+console.log(circles);
