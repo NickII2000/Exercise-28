@@ -32,7 +32,8 @@ const box = document.getElementById('box'),
     btns = document.getElementsByTagName('button'),
     circles = document.getElementsByClassName('circle'),
     hearts = document.querySelectorAll('.heart'),
-    oneheart = document.querySelector('.heart');
+    oneheart = document.querySelector('.heart'),
+    wrapper = document.querySelector('.wrapper');
 console.dir(box);
 
 // box.style.backgroundColor = 'blue';
@@ -61,4 +62,4 @@ div.classList.add('black');
 // div.innerHTML = text2.textContent + text1.textContent;
 // div.innerHTML = 'Однако!' + '</br>' + 'Здесь был я';
 // document.body.append(div);
-document.querySelector('.wrapper').append(div);
+wrapper.append(div);
