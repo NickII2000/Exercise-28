@@ -64,9 +64,13 @@ div.classList.add('black');
 // document.body.append(div);
 // wrapper.append(div);
 // wrapper.prepend(div);
-// hearts[0].before(div);
+hearts[0].before(div);
 // hearts[0].after(div);
 
 // circles[0].remove();
+// wrapper.removeChild(hearts[1]);
 // hearts[2].replaceWith(circles[1]);
-wrapper.insertBefore(div, hearts[0]);
+// wrapper.replaceChild(circles[0], hearts[0]);
+// wrapper.insertBefore(div, hearts[1]);
+
+div.innerHTML = '<h1>Hello World!</h1>';
