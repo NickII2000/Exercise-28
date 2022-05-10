@@ -62,4 +62,10 @@ div.classList.add('black');
 // div.innerHTML = text2.textContent + text1.textContent;
 // div.innerHTML = 'Однако!' + '</br>' + 'Здесь был я';
 // document.body.append(div);
-wrapper.append(div);
+// wrapper.append(div);
+// wrapper.prepend(div);
+// hearts[0].before(div);
+hearts[0].after(div);
+
+// circles[0].remove();
+hearts[2].replaceWith(circles[1]);
