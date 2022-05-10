@@ -35,3 +35,4 @@ const box = document.getElementById('box'),
     oneheart = document.querySelector('.heart');
 console.dir(box);
 box.style.backgroundColor = 'blue';
+box.style.width = '500px';
