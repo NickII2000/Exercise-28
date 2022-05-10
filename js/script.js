@@ -73,4 +73,9 @@ hearts[0].before(div);
 // wrapper.replaceChild(circles[0], hearts[0]);
 // wrapper.insertBefore(div, hearts[1]);
 
-div.innerHTML = '<h1>Hello World!</h1>';
+// div.innerHTML = '<h1>Hello World!</h1>';
+div.textContent = 'HELLO!';
+div.insertAdjacentHTML("beforebegin", '<h2>hello, beforebegin</h2>');
+div.insertAdjacentHTML("afterbegin", '<h2>hello, afterbegin</h2>');
+div.insertAdjacentHTML("beforeend", '<h2>hello, beforeend</h2>');
+div.insertAdjacentHTML("afterend", '<h2>hello, afterend</h2>');
