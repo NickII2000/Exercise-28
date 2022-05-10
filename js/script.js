@@ -34,3 +34,4 @@ const box = document.getElementById('box'),
     hearts = document.querySelectorAll('.heart'),
     oneheart = document.querySelector('.heart');
 console.dir(box);
+box.style.backgroundColor = 'blue';
