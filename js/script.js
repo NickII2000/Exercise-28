@@ -65,7 +65,8 @@ div.classList.add('black');
 // wrapper.append(div);
 // wrapper.prepend(div);
 // hearts[0].before(div);
-hearts[0].after(div);
+// hearts[0].after(div);
 
 // circles[0].remove();
-hearts[2].replaceWith(circles[1]);
+// hearts[2].replaceWith(circles[1]);
+wrapper.insertBefore(div, hearts[0]);
