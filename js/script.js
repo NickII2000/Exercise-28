@@ -53,8 +53,12 @@ hearts.forEach(item => {
 
 const div = document.createElement('div');
 const text1 = document.createTextNode('Здесь был я');
-const text2 = document.createTextNode('Однако! \n');
+const text2 = document.createTextNode('Однако!');
+div.innerHTML = '</br>';
 div.append(text1);
 div.prepend(text2);
 div.classList.add('black');
-document.body.append(div);
+// div.innerHTML = text2.textContent + text1.textContent;
+// div.innerHTML = 'Однако!' + '</br>' + 'Здесь был я';
+// document.body.append(div);
+document.querySelector('.wrapper').append(div);

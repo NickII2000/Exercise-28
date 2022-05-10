@@ -73,7 +73,7 @@ button {
 .black {
    width: 150px;
    height: 100px;
-   line-height: 100px;
+   line-height: 50px;
    text-align: center;
    background-color: black;
    margin-bottom: 30px;
