@@ -50,3 +50,5 @@ circles[0].style.backgroundColor = 'red';
 hearts.forEach(item => {
     item.style.backgroundColor = 'yellow';
 });
+
+const div = document.createElement('div');
