@@ -6,12 +6,12 @@
 
 button {
    width: 80px;
-   height: 30px;
+   height: 80px;
    margin-top: 10px;
    border: none;
    border-radius: 8px;
    background-color: #000;
-   color: #fff;
+   color: rgb(70, 69, 69);
    cursor: pointer;
    outline: none;
 }
